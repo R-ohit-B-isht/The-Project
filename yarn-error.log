@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rohit/Developer/flutter/bin:/Users/rohit/Developer/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@firebase/firestore/-/firestore-2.4.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141517:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:495:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "name": "nextfire",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "export": "next export"
+    },
+    "dependencies": {
+      "firebase": "^8.2.1",
+      "lodash.debounce": "^4.0.8",
+      "lodash.kebabcase": "^4.1.1",
+      "next": "12.0.1",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-firebase-hooks": "^2.2.0",
+      "react-hook-form": "^6.14.2",
+      "react-hot-toast": "^1.0.2",
+      "react-markdown": "^5.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
