@@ -1,7 +1,7 @@
 ## THE PROJECT (Next.js + Firebase)
  
 
-Build a complex webapp inspired by sites Dev.to and Medium, featuring...
+Built a complex webapp inspired by sites Dev.to and Medium, featuring...
 
 - 👨‍🎤 Custom Firebase usernames
 - 📰 Bot-friendly content (SEO)
